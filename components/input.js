@@ -15,7 +15,6 @@ const Input = styled.input`
     border-radius: 15px;
     outline: none;
     appearance: none;
-    user-select: none;
     transition: background 0.8s;
     box-shadow: 0 3px 6px 0 #292929, 0 5px 10px 0 #292929;
     text-align: center;
