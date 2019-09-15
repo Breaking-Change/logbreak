@@ -19,7 +19,7 @@ if (!process.browser) {
 const client = new ApolloClient({
 	uri: 'https://api.github.com/graphql',
 	headers: {
-		Authorization: 'bearer f0efddb82d1b589a964fc45c6de1cadc68421850'
+		Authorization: 'bearer GITHUB_TOKEN'
 	}
 });
 
