@@ -1,0 +1,21 @@
+{
+    "name": "LogBreak",
+    "short_name": "LogBreak",
+    "icons": [
+      {
+        "src": "/static/favicon-small.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/static/favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+}
