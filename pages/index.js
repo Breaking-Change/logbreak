@@ -12,8 +12,6 @@ const Home = () => {
 	const [formState, {text}] = useFormState();
 	const router = useRouter();
 
-	const examples = ['facebook/react', 'lodash/lodash', 'sindresorhus/got', 'chalk/chalk', 'facebook/react-native', 'zeit/next.js'];
-
 	const handleSubmit = e => {
 		e.preventDefault();
 		const {values} = formState;
@@ -26,7 +24,7 @@ const Home = () => {
 			<Hero/>
 			<Header>Try it out!</Header>
 			<form style={{textAlign: 'center', paddingBottom: '10em'}} onSubmit={handleSubmit}>
-				<Input {...text('repo')} required placeholder={examples[Math.floor(examples.length * Math.random())]}/>
+				<Input {...text('repo')} type="text" required name="repo" placeholder="facebook/react"/>
 				<br/>
 				<Button type="submit">Check</Button>
 			</form>
